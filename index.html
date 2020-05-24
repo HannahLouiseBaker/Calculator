@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS for styling and layout-->
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body>
+    <main>
+      <!--Main Container-->
+      <div id="calculator" class="container">
+        <!--Display Row-->
+        <div class="row">
+          <div id="display-sum" class="col text-right">
+          </div>
+        </div>
+        <div class="row">
+          <div id="display" class="col text-right">
+          <p class="text-right">0</p>
+          </div>
+        </div>
+        <!--Top Row-->
+        <div class="row btn-row">
+          <div id="clear" class="col-6 large-button btn rounded-0 red left-border">
+            <p>AC</p>
+          </div>
+          <div id="divide" class="col-3 small-button btn rounded-0 light-grey calc-symbol">
+            <p>/</p>
+          </div>
+          <div id="multiply" class="col-3 small-button btn rounded-0 light-grey calc-symbol right-border">
+            <p>*</p>
+          </div>
+        </div>
+        <!--Second Row-->
+        <div class="row btn-row">
+          <div id="seven" class="col small-button btn rounded-0 dark-grey number left-border">
+            <p>7</p>
+          </div>
+          <div id="eight" class="col small-button btn rounded-0 dark-grey number">
+            <p>8</p>
+          </div>
+          <div id="nine" class="col small-button btn rounded-0 dark-grey number">
+            <p>9</p>
+          </div>
+          <div id="subtract" class="col small-button btn rounded-0 light-grey calc-symbol right-border">
+            <p>-</p>
+          </div>
+        </div>
+        <!--Third Row-->
+        <div class="row btn-row">
+          <div id="four" class="col small-button btn rounded-0 dark-grey number left-border">
+            <p>4</p>
+          </div>
+          <div id="five" class="col small-button btn rounded-0 dark-grey number">
+            <p>5</p>
+          </div>
+          <div id="six" class="col small-button btn rounded-0 dark-grey number">
+            <p>6</p>
+          </div>
+          <div id="add" class="col small-button btn rounded-0 light-grey calc-symbol right-border">
+            <p>+</p>
+          </div>
+        </div>
+        <!--Final (Double) Row-->
+        <div class="row btn-row">
+          <div class="col">
+            <div class="row btn-row">
+              <div id="one" class="col-3 small-button btn rounded-0 dark-grey number left-border">
+                <p>1</p>
+              </div>
+              <div id="two" class="col-3 small-button btn rounded-0 dark-grey number">
+                <p>2</p>
+              </div>
+              <div id="three" class="col-3 small-button btn rounded-0 dark-grey number">
+                <p>3</p>
+              </div>
+              <div id="equals" class="col-3 tall-button btn rounded-0 blue right-border bottom-border">
+                <p>=</p>
+              </div>
+            </div>
+            <div class="row btn-row">
+              <div id="zero" class="col-6 large-button btn rounded-0 dark-grey number left-border bottom-border">
+                <p>0</p>
+              </div>
+              <div id="decimal" class="col-3 small-button btn rounded-0 dark-grey bottom-border">
+                <p>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </main>
+    <!--Load jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+
+    <!-- Link to JavaScript file -->
+    <script src="main.js"></script>
+  </body>
+
+</html>
